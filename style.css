@@ -22,6 +22,7 @@ header{
     -ms-transform: translateY(10px);
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
+    
 }
 
 .navbar-collapse ul li:hover a.nav-link:before {
@@ -30,13 +31,13 @@ header{
 	-webkit-transform: translateY(0px);
 	transform: translateY(0px);
 	bottom: 0px;
-	background: #dd4343;
+	background: #F17021;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-    color: #ffffff;
+    color: #A4A4A4;
     text-decoration: none;
-    background-color: #dd4343;
+    background-color: #181818;
 }
 
 .dropdown-menu {
