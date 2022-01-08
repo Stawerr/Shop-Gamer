@@ -1,15 +1,50 @@
 :root{
     --cinzento: #181818;
     --cinzentotext:#A4A4A4;
+    --laranja:#F14C2D;
 }
 /*---------- HEADER --------------- */
 header{
-    background-color: var(--cinzento)
+    background-color: var(--cinzento);
+    color: var(--cinzentotext);
 }
 /*---------- BODY --------------- */
 body{
   font-family: 'Roboto', sans-serif;
 }
+/*---------- LOGO --------------- */
+
+
+/*---------- Search --------------- */
+.search
+{
+  text-align: center;
+  padding:15px;
+  overflow: auto;
+}
+
+.search input[type="text"]
+{
+	border: 0px;
+	width: 50%;
+	padding: 10px 10px;
+}
+
+.search input[type="text"]:focus
+{
+	outline: 0;
+}
+
+.search input[type="submit"]
+{
+	border: 0px;
+	background-color: var(--laranja);
+	color: #fff;
+	padding: 10px;
+  cursor:pointer;
+
+}
+
 /*---------- NAVBAR --------------- */
 nav{
   background-color: var(--cinzento);
@@ -40,7 +75,7 @@ nav{
 	-webkit-transform: translateY(0px);
 	transform: translateY(0px);
 	bottom: 0px;
-	background: #F17021;
+	background: var(--laranja);
   
 }
 .dropdown-item:hover, .dropdown-item:focus {
@@ -51,7 +86,6 @@ nav{
 }
 .dropdown-menu {
   border: 0px;
-  
 }
 /*----------- MAIN --------------- */
 main{
@@ -60,4 +94,9 @@ main{
 }
 main p{
   text-align: justify;
+}
+/*----------- FOOTER --------------- */
+footer{
+  background-color: var(--cinzento);
+  color:white
 }
