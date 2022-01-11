@@ -7,12 +7,14 @@
 header{
     background-color: var(--cinzento);
     color: var(--cinzentotext);
+    position: sticky; top: 0;
+
 }
 /*---------- BODY --------------- */
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: var(--cinzento);
 }
-/*---------- LOGO --------------- */
 
 
 /*---------- Search --------------- */
@@ -76,28 +78,22 @@ nav{
 	transform: translateY(0px);
 	bottom: 0px;
 	background: var(--laranja);
-  
 }
-.dropdown-item:hover, .dropdown-item:focus {
-    color: var(--cinzentotext);
-    text-decoration: none;
-    background-color: var(--cinzento);
-    
-}
-.dropdown-menu{
-  border: 0px;
-}
+
 /*----------- MAIN --------------- */
 main{
   background-color: var(--cinzento);
   color:white
 }
-main p{
-  text-align: justify;
+main p,h3{
+  text-align: left;
+  line-height: 1em;
+  margin: 0;
 }
 .carousel-inner{
   width:100%;
   max-height: 430px !important;
+  z-index: -1;
 }
 
 /*----------- FOOTER --------------- */
