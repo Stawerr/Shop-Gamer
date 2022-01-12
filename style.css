@@ -9,6 +9,7 @@ header{
     color: var(--cinzentotext);
     position: sticky; top: 0;
     z-index: 9;
+    max-height: 165px !important;
 }
 /*---------- BODY --------------- */
 body{
@@ -72,7 +73,7 @@ body{
 	-ms-transform: translateY(0px);
 	-webkit-transform: translateY(0px);
 	transform: translateY(0px);
-	bottom: 0px;
+	bottom: 5px;
 	background: var(--laranja);
 }
 .dropdown:hover .dropdown-menu {
