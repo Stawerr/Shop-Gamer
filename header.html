@@ -1,55 +1,61 @@
 <header>
-    <div class="container p-2 ">
-    <table>
-      <td>
-        <img src="img/icone/ShopGamers.png" alt="">
-      </td>
-      <td id="tdsearch">
-        <div class="search">
-          <form class="search-form">
-            <input type="text" placeholder="Search for games, subscriptions and more...">
-            <input type="submit" value="Pesquisar">
-          </form>
-      </div>
-    </td>
-    </table>
+    <div class="container p-3 sticky-top ">
+      <div class="container ">
+        <div class="row">
+          <div class="col ">
+            <img src="img/icone/ShopGamers.png" alt="">
+          </div>
+          <div class="col-9 p-3 ">
+            <div class="search">
+              <form class="search-form">
+                <input type="text" placeholder="Search for games, subscriptions and more...">
+                <input type="submit" value="Pesquisar">
+              </form>
+          </div>
+          </div>
   </div>
-    <nav class="container navbar navbar-expand-lg navbar-dark bg-nero">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Jogos
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Games
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">FPS</a></li>
+              <li><a class="dropdown-item" href="#">Sports</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">RPG</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Subscrições
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Subscriptions
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Netflix</a>
-              <a class="dropdown-item" href="#">Disney+</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">PSN</a>
-            </div>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Netflix</a></li>
+              <li><a class="dropdown-item" href="#">Disney+</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">PSN</a></li>
+            </ul>
           </li>
-                <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-                <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hardware
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Mouse</a></li>
+              <li><a class="dropdown-item" href="#">Keyboard</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Headsets</a></li>
+            </ul>
           </li>
         </ul>
       </div>
-    </nav>
-    </header>
+    </div>
+  </nav>
+</header>
