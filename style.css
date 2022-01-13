@@ -9,7 +9,7 @@ header{
     color: var(--cinzentotext);
     position: sticky; top: 0;
     z-index: 9;
-    max-height: 165px !important;
+ 
 }
 /*---------- BODY --------------- */
 body{
@@ -47,7 +47,6 @@ body{
 }
 
 /*---------- NAVBAR --------------- */
-
 .nav-item {
   position: relative;
 }
@@ -81,10 +80,18 @@ body{
   margin-top: 0;
 }
 
+.nav-link{
+color: var(--cinzentotext)!important;
+}
+
 /*----------- MAIN --------------- */
 main{
   background-color: var(--cinzento);
   color:white
+}
+.carousel-inner{
+  width:100%;
+  max-height: 430px !important;
 }
 
 #hello{
@@ -93,12 +100,28 @@ main{
   padding-bottom: 50px;
   padding-right: 50px;
   padding-left: 50px;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
-.carousel-inner{
-  width:100%;
-  max-height: 430px !important;
+.col_zero{
+  padding: 0 !important;
+}
+.col_zero img{
+  height: 100%;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+/* CSS Zoom slow image */
+.col_zero img {
+  transition: transform .5s, filter 1.5s ease-in-out;
 }
 
+/* CSS Transformation image https://w3bits.com/css-image-hover-zoom/ */
+.col_zero:hover img {
+  transform: scale(1.1);
+}
 /*----------- FOOTER --------------- */
 footer{
   background-color: var(--cinzento);
