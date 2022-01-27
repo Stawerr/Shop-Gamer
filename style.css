@@ -162,7 +162,7 @@ transform: translateX(0);
 
 /*----------- FOOTER --------------- */
 footer{
-  background-color: var(--cinzento);
+  background-color:  rgba(0, 0, 0, 0.2)!important;
   color:white
 }
 
