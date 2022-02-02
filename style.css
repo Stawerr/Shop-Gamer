@@ -325,18 +325,34 @@ footer{
 }
 
 .section-products #product-2 .part-1::before {
-  background: url("/img/FPS/DL2.jpg") no-repeat center;
+  background: url("/img/FPS/tarkov.jpeg") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("/img/FPS/DL2.jpg") no-repeat center;
+    background: url("/img/FPS/TCE.png") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("/img/FPS/DL2.jpg") no-repeat center;
+    background: url("/img/FPS/B2042.jpg") no-repeat center;
     background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+  background: url("/img/FPS/far-cry-6.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+  background: url("/img/FPS/bdlands.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+  background: url("/img/FPS/cp.jpg") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+  background: url("/img/FPS/B2042.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .section-products .single-product .part-1 .discount,
