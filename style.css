@@ -251,8 +251,8 @@ footer{
   display: block;
 }
 .preco{
-  border-radius: 20px;
-
+  border-radius: 5px;
+  background: #202020!important;
 }
 .card{
   border-radius: 10px!important;
